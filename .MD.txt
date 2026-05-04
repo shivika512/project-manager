@@ -1,0 +1,18 @@
+# HR Portal - Project Manager
+
+This is a full-stack dashboard . It manages HR data and includes an AI-powered retrieval system.
+
+## 🛠️ Tech Stack
+- **Frontend**: Next.js (React), Tailwind CSS
+- **Backend**: Flask (Python)
+- **Database**: MongoDB
+- **Deployment**: Railway
+
+## ⚙️ Environment Variables
+To run this project, you will need to add the following variables to your `.env` or Railway settings:
+`MONGODB_URI`=your_mongodb_connection_string
+
+## 📦 Setup Instructions
+1. Clone the repository:
+   ```bash
+   git clone <your-repo-link>
