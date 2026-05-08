@@ -14,6 +14,8 @@ const handler = NextAuth({
         const client = await clientPromise;
         const users = client.db("project_db").collection("users");
         const user = await users.findOne({ email: credentials?.email });
+        console.log("Found user:", user);
+        console.log("Password match:", user?.password === credentials?.password);
 
         // Simple check for speed (use bcrypt for production)
         if (user && user.password === credentials?.password) {

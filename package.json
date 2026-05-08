@@ -8,9 +8,11 @@
     "start": "next start"
   },
   "dependencies": {
-    "next": "latest",
-    "react": "latest",
-    "react-dom": "latest",
-    "mongodb": "latest"
+    "mongodb": "latest",
+    "mongoose": "^9.6.2",
+    "next": "^16.2.6",
+    "next-auth": "^4.24.14",
+    "react": "^19.2.6",
+    "react-dom": "^19.2.6"
   }
 }
